@@ -2,7 +2,7 @@ var antiAdb = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=
 var antiAdbK = antiAdb.split("");
 var adbChek = document.querySelectorAll(".wc-credit").length;
 var adbChekA = document.querySelector(".wc-credit");
-if (){
+if (adbChek != 0) {
  setTimeout(function() {
    var ta = document.querySelectorAll(".adsbygoogle")[0];
    var style = window.getComputedStyle(ta, null);
