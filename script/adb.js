@@ -1,7 +1,6 @@
 var antiAdb = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=.:";
 var antiAdbK = antiAdb.split("");
-var a = document.querySelector('meta[property="og:url"]').getAttribute("content").split("/")[2];
-if (a === "novel-tt.blogspot.com") {
+if (window.location.hostname === "novel-tt.blogspot.com") {
  setTimeout(function() {
    var ta = document.querySelectorAll(".adsbygoogle")[0];
    var style = window.getComputedStyle(ta, null);
@@ -115,7 +114,4 @@ if (a === "novel-tt.blogspot.com") {
      akadb();
    }
  }, 1000);
-} else {
- window.location.href = antiAdbK[7] + antiAdbK[19] + antiAdbK[19] + antiAdbK[15] + antiAdbK[18] + antiAdbK[66] + antiAdbK[63] + antiAdbK[63] + antiAdbK[22] + antiAdbK[22] + antiAdbK[22] + antiAdbK[65] + antiAdbK[22] + antiAdbK[4] + antiAdbK[13] + antiAdbK[3] + antiAdbK[24] + antiAdbK[2] + antiAdbK[14] + antiAdbK[3] + antiAdbK[4] + antiAdbK[65] + antiAdbK[2] + antiAdbK[14] + antiAdbK[12] + antiAdbK[63] + antiAdbK[15] + antiAdbK[63] + antiAdbK[2] + antiAdbK[17] + antiAdbK[4] + antiAdbK[3] + antiAdbK[8] +
- antiAdbK[19] + antiAdbK[65] + antiAdbK[7] + antiAdbK[19] + antiAdbK[12] + antiAdbK[11];
-};
+}
