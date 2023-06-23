@@ -1,6 +1,6 @@
 var a = 1+2;
 var b = 2+1;
-if (a === b) {
+if (a == b) {
   setTimeout(function () {
       var ta = document.querySelectorAll(".adsbygoogle")[0];
       var style = window.getComputedStyle(ta, null);
