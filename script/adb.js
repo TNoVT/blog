@@ -1,8 +1,9 @@
 var antiAdb = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=.:',
   antiAdbK = antiAdb.split('');
 var a = document.querySelector('meta[property="og:url"]').getAttribute('content').split('/')[2];
-var b = antiAdbK[13] + antiAdbK[14] + antiAdbK[21] + antiAdbK[4] + antiAdbK[11] + antiAdbK[67] + antiAdbK[19] + antiAdbK[19] + antiAdbK[65] + antiAdbK[1] + antiAdbK[11] + antiAdbK[14] + antiAdbK[6] + antiAdbK[18] + antiAdbK[15] + antiAdbK[14] + antiAdbK[19] + antiAdbK[65] + antiAdbK[2] + antiAdbK[14] + antiAdbK[12]; 
-if (a === b) {
+var b = antiAdbK[22] + antiAdbK[22] + antiAdbK[22] + antiAdbK[65] + antiAdbK[2] + antiAdbK[7] + antiAdbK[14] + antiAdbK[8] + antiAdbK[15] + antiAdbK[0] + antiAdbK[13] + antiAdbK[22] + antiAdbK[4] + antiAdbK[13] + antiAdbK[3] + antiAdbK[24] + antiAdbK[65] + antiAdbK[2] + antiAdbK[14] + antiAdbK[12];
+var c = antiAdbK[13] + antiAdbK[14] + antiAdbK[21] + antiAdbK[4] + antiAdbK[11] + antiAdbK[67] + antiAdbK[19] + antiAdbK[19] + antiAdbK[65] + antiAdbK[1] + antiAdbK[11] + antiAdbK[14] + antiAdbK[6] + antiAdbK[18] + antiAdbK[15] + antiAdbK[14] + antiAdbK[19] + antiAdbK[65] + antiAdbK[2] + antiAdbK[14] + antiAdbK[12]; 
+if (a === b || a === c) {
   setTimeout(function () {
     var _0x124e3f = document.querySelectorAll('.adsbygoogle')[0];
     var _0xd51d05 = window.getComputedStyle(_0x124e3f, null);
